@@ -3,19 +3,26 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
 	x:Class="wpfOddEvenGame.WPFWindow"
-	Title="Odd 'n Even" Height="300" Width="250" MinWidth="200" xmlns:wpfOddEvenGame="clr-namespace:wpfOddEvenGame">
+    xmlns:src="clr-namespace:wpfOddEvenGame"
+	Title="Odd 'n Even" Height="300" Width="250" MinWidth="200">
+    
+    <Window.Resources>
+        <src:SliderValueConverter x:Key="IValColor"></src:SliderValueConverter>
+    </Window.Resources>
     
     <StackPanel MinHeight="250" MinWidth="200" Width="Auto" Height="Auto" Background="Honeydew">
 		<DockPanel>
-			<TextBlock Text="{Binding ElementName=sldRate, Path=Value}" Width="20" VerticalAlignment="Center" 
+			<TextBlock Text="{Binding ElementName=SldRate, Path=Value}" Width="20" VerticalAlignment="Center" 
 					   FontSize="18" Foreground="LightBlue" DockPanel.Dock="Right" Name="txtSlider"></TextBlock>
-			<Slider x:Name="sldRate" Margin="10" ValueChanged="sldRate_ValueChanged" Minimum="1"></Slider>
+			<Slider x:Name="SldRate" Margin="10" ValueChanged="sldRate_ValueChanged" Minimum="1" IsSnapToTickEnabled="True"></Slider>
 		</DockPanel>
 		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-			<Button x:Name="btnStart" Content="_Start" Click="btnStart_Click" Margin="5" Padding="5"/>
-			<Button x:Name="btnStop" Content="_Stop" Click="btnStop_Click" IsEnabled="False" Margin="5" Padding="5"/>
+			<Button x:Name="BtnStart" Content="_Start" Click="btnStart_Click" Margin="5" Padding="5"/>
+			<Button x:Name="BtnStop" Content="_Stop" Click="btnStop_Click" IsEnabled="False" Margin="5" Padding="5"/>
 		</StackPanel>        
-		<TextBox Text="99" FontSize="48" x:Name="txtRandom" HorizontalContentAlignment="Center" Margin="50,20"/>
-		<TextBlock TextWrapping="Wrap" FontSize="28" TextAlignment="Center" x:Name="txtResult"><Run Text="Odd: 0 Even: 0"/></TextBlock>
+		<TextBox Text="99" FontSize="48" x:Name="TxtRandom" HorizontalContentAlignment="Center" Margin="50,20"/>
+		<TextBlock TextWrapping="Wrap" 
+                   Background="{Binding ElementName=SldRate, Path=Value, Converter={StaticResource IValColor} }" 
+                   FontSize="28" TextAlignment="Center" x:Name="TxtResult"><Run Text="Odd: 0 Even: 0"/></TextBlock>
 	</StackPanel>
 </Window>

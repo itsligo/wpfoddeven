@@ -89,7 +89,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="SliderValueConverter.cs" />
+    <Compile Include="ColorValueConverter.cs" />
     <Compile Include="wpfOddEven.xaml.cs">
       <DependentUpon>wpfOddEven.xaml</DependentUpon>
       <SubType>Code</SubType>

@@ -38,3 +38,4 @@ C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\obj\Debug\wpfOddEven.baml
 C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\obj\Debug\wpfOddEvenGame.g.resources
 C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\obj\Debug\wpfOddEvenGame.Properties.Resources.resources
 C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\obj\Debug\wpfOddEvenGame.csproj.GenerateResource.Cache
+C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\obj\Debug\GeneratedInternalTypeHelper.g.cs

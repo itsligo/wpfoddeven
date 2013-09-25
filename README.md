@@ -13,4 +13,11 @@ The speed of the generation is governed by a Timer whose interval of firing is d
 
 - There is no need to stop/start the _Timer_ to change its _Interval_
 
-- 
+##Branches
+I've created a couple branches showing the application at various stages of its development. Switch between branches to see the application intact at a point in time - this ensures there isn't confusion between various evolutions of the code.
+
+###Master
+This is the starting off point - a solution to the basic exercise described above.
+###IValConverter
+This shows how the use of a _IValueConverter_ class can assist in the dynamic updating of elements of the user interface based upon changes to other parts. In this instance, we changed the _color_ of the background to the _TextBlock_ where the generated number is displayed.
+A stronger colour is used for higher values of the _Slider_, more pastel colours for lower values of the _Slider_. The CLR (Common Language Runtime) that executes your program monitors this need for updating based upon changes elsewhere and executes the necessary code.
