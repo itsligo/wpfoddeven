@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfOddEvenGame", "wpfOddEvenGame\wpfOddEvenGame.csproj", "{115DCA35-40E9-49A6-9AE4-7917D157C05F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BE1FCB00-2FF8-4705-AA13-CB3581361AB5}"
+	ProjectSection(SolutionItems) = preProject
+		img1.png = img1.png
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{115DCA35-40E9-49A6-9AE4-7917D157C05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115DCA35-40E9-49A6-9AE4-7917D157C05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115DCA35-40E9-49A6-9AE4-7917D157C05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115DCA35-40E9-49A6-9AE4-7917D157C05F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
