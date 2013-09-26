@@ -29,7 +29,6 @@ C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\obj\Debug\wpfOddEvenGame.exe
 C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\obj\Debug\wpfOddEvenGame.pdb
 C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\bin\Debug\wpfOddEvenGame.exe
 C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\bin\Debug\wpfOddEvenGame.pdb
-C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\obj\Debug\wpfOddEvenGame.csprojResolveAssemblyReference.cache
 C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\obj\Debug\wpfOddEven.g.cs
 C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\obj\Debug\App.g.cs
 C:\Repos\rad30x\wpfOddEvenGameAdv\wpfOddEvenGame\obj\Debug\wpfOddEvenGame_MarkupCompile.cache

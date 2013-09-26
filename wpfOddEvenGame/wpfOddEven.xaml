@@ -14,7 +14,7 @@
 		<DockPanel>
 			<TextBlock Text="{Binding ElementName=SldRate, Path=Value}" Width="20" VerticalAlignment="Center" 
 					   FontSize="18" Foreground="LightBlue" DockPanel.Dock="Right" Name="txtSlider"></TextBlock>
-			<Slider x:Name="SldRate" Margin="10" ValueChanged="sldRate_ValueChanged" Minimum="1" IsSnapToTickEnabled="True"></Slider>
+			<Slider x:Name="SldRate" Margin="10" SmallChange="1" ValueChanged="sldRate_ValueChanged" Minimum="1" IsSnapToTickEnabled="True"></Slider>
 		</DockPanel>
 		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
 			<Button x:Name="BtnStart" Content="_Start" Click="btnStart_Click" Margin="5" Padding="5"/>
